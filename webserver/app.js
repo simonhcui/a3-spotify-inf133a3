@@ -15,6 +15,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+//app.set('view engine', 'jade');
+
 app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
