@@ -1,9 +1,15 @@
+<!--button (click)="testtt()">Click me!</button-->
 <!--TODO: bind href to the appropriate local URL for the album/artist/song.-->
-<a>
+<!--a href="https://www.w3schools.com/html/"-->
+<!--a href="artist/{{resource.id}}"-->
+<a href="{{resource.category}}/{{resource.id}}">
+
+<img src="{{resource.imageURL}}" width="500" height="500">
+<!--img src="https://ce.uci.edu/images/sidebars/uci_ce_building_2x.jpg" alt="UCI" width="500" height="333"-->
 <!--TODO bind src with the album/artist/song image URRL-->
 <img class="d-block w-100">
 <div class="carousel-caption d-none d-md-block">
 	<!--TODO: populate h5 with the album/artist/song name-->
-	<h5>???</h5>
+	<h5>{{resource.name}}</h5>
 </div>
 </a>

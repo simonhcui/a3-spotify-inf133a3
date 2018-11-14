@@ -14,4 +14,11 @@ export class CarouselCardComponent implements OnInit {
   ngOnInit() {
   }
 
+  testtt(){
+    alert("ppp");
+    console.log(this.resource.id);
+    console.log(this.resource.name);
+    console.log(this.resource);
+//    console.log("oooo");
+  }
 }
