@@ -7,5 +7,7 @@ export class ArtistData extends ResourceData {
 		super(objectModel);
 		this.category = 'artist';
 		this.genres = objectModel['genres'];
+		console.log("ArtistData");
+
 	}
 }
